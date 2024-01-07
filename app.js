@@ -46,7 +46,7 @@ function displayWeather(data) {
         <h2>${cityName}</h2>
         <p>Temperature: ${temperature} °C</p>
         <p>Description: ${description}</p>
-        <p>Local Time: ${localTime}</p>
+        
     `;
 
     weatherInfoContainer.innerHTML = weatherHtml;
